@@ -13,80 +13,188 @@
     <title>Document</title>
 </head>
 
-<body style="background-image: url(/image/background.png);">
-    <aside class="w-full lg:w-[200px] lg:flex ml-[50px]">
-        <div class="bg-black p-6 rounded-2xl flex flex-col items-center text-center">
-            <div class="bg-gradient-to-br from-pink-200 to-orange-200 p-1 rounded-3xl mb-4">
-                <img src="image/IMG-20250224-WA0009.jpg" alt="Progile picture"
-                    class="rounded-4xl w-48 h-48 object-cover">
+<!-- <body> -->
+
+<body style="background-image: url(/image/background.png); ">
+    <div class=" ml-[50px] mt-[50px]">
+        <p class="text-2xl text-blue-400">Anukalp Kumar</p>
+    </div>
+    <div class="container mx-auto p-4 lg:p-8 flex flex-col lg:flex-row gap-8">
+        <aside class="w-full lg:w-[300px] flex-shrink-0 lg:sticky lg:top-8 h-fit">
+            <div class="bg-black p-6 rounded-2xl flex flex-col items-center text-center">
+                <div class="bg-gradient-to-br from-pink-200 to-orange-200 p-1 rounded-3xl mb-4">
+                    <img src="image/IMG-20250224-WA0009.jpg" alt="Progile picture"
+                        class="rounded-4xl w-48 h-48 object-cover">
+                </div>
+                <h1 class="text-2xl font-bold text-white">Anukalp Kumar</h1>
+                <p class="text-sm text-gray-400 mt-1">UI/Ux Designer</p>
+                <div class="flex space-x-3 my-5">
+                    <a href="#"
+                        class="w-10 h-10 bg-[#333333] rounded-full flex items-center justify-center text-gray-400 hover:bg-pink-500 hover:text-white transition-all duration-300">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="#"
+                        class="w-10 h-10 bg-[#333333] rounded-full flex items-center justify-center text-gray-400 hover:bg-pink-500 hover:text-white transition-all duration-300">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="#"
+                        class="w-10 h-10 bg-[#333333] rounded-full flex items-center justify-center text-gray-400 hover:bg-pink-500 hover:text-white transition-all duration-300">
+                        <ion-icon name="logo-dribbble"></ion-icon>
+                    </a>
+                    <a href="#"
+                        class="w-10 h-10 bg-[#333333] rounded-full flex items-center justify-center text-gray-400 hover:bg-pink-500 hover:text-white transition-all duration-300">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </div>
+                <div class="bg-[#111111] p-4 rounded-xl w-full divide-y divide-gray-700">
+                    <div class="flex items-center py-3 text-left">
+                        <div
+                            class="w-10 h-10 bg-[#222222] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                            <ion-icon name="phone-portrait-outline" class="text-pink-500 text-xl"></ion-icon>
+                        </div>
+                        <div>
+                            <p class="text-xs text-white">phone</p>
+                            <p class="text[4px] text-white">+91-7352719256</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center py-3 text-left">
+                        <div
+                            class="w-10 h-10 bg-[#222222] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                            <ion-icon name="mail" class="text-pink-500 text-xl"></ion-icon>
+                        </div>
+                        <div>
+                            <p class="text-xs text-white">Email</p>
+                            <p class="text-sm text-white">Anukalpk79@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center py-3 text-left">
+                        <div
+                            class="w-10 h-10 bg-[#222222] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                            <ion-icon name="location" class="text-pink-500 text-xl"></ion-icon>
+                        </div>
+                        <div>
+                            <p class="text-xs text-white">location</p>
+                            <p class="text-sm text-white">Bihar India</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center py-3 text-left">
+                        <div
+                            class="w-10 h-10 bg-[#222222] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                            <ion-icon name="calendar" class="text-pink-500 text-xl"></ion-icon>
+                        </div>
+                        <div>
+                            <p class="text-xs text-white">Birtdate</p>
+                            <p class="text-sm text-white">27/06/2006</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center py-3 text-left">
+                        <div class="w-4/5 h-10 bg-[#222222] rounded-lg flex items-center justify-center mr-4 ">
+                            <ion-icon name="download" class="text-pink-500 text-xl"></ion-icon>
+                            <p class="text-sm text-white">download CV</p>
+                        </div>
+                    </div>
+        </aside>
+
+        <body class="bg-gray-100 dark:bg-gray-900 transition-colors duration-500 font-sans">
+
+            <div class="min-h-screen flex flex-col justify-center items-center p-4">
+                <!-- The Theme Toggle Button -->
+                <button id="theme-toggle-button"
+                    class="p-3 rounded-full bg-gray-200 dark:bg-gray-800 text-yellow-500 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 dark:focus:ring-offset-gray-900 focus:ring-indigo-500 transition-colors duration-300">
+                    <!-- Sun Icon -->
+                    <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4.243 2.243a1 1 0 011.414 0l.707.707a1 1 0 01-1.414 1.414l-.707-.707a1 1 0 010-1.414zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zm-2.243 4.243a1 1 0 010 1.414l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 0zM10 16a1 1 0 01-1 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zm-4.243-2.243a1 1 0 01-1.414 0l-.707-.707a1 1 0 011.414-1.414l.707.707a1 1 0 010 1.414zM2 10a1 1 0 011-1h1a1 1 0 110 2H3a1 1 0 01-1-1zm2.243-4.243a1 1 0 010-1.414l.707-.707a1 1 0 011.414 1.414l-.707.707a1 1 0 01-1.414 0zM10 5a5 5 0 100 10 5 5 0 000-10z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    <!-- Moon Icon -->
+                    <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hidden" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+                    </svg>
+                </button>
+
             </div>
-            <h1 class="text-2xl font-bold text-white">Anukalp Kumar</h1>
-            <p class="text-sm text-gray-400 mt-1">UI/Ux Designer</p>
-            <div class="flex space-x-3 my-5">
-                <a href="#"
-                    class="w-10 h-10 bg-[#333333] rounded-full flex items-center justify-center text-gray-400 hover:bg-pink-500 hover:text-white transition-all duration-300">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                </a>
-                <a href="#"
-                    class="w-10 h-10 bg-[#333333] rounded-full flex items-center justify-center text-gray-400 hover:bg-pink-500 hover:text-white transition-all duration-300">
-                    <ion-icon name="logo-twitter"></ion-icon>
-                </a>
-                <a href="#"
-                    class="w-10 h-10 bg-[#333333] rounded-full flex items-center justify-center text-gray-400 hover:bg-pink-500 hover:text-white transition-all duration-300">
-                    <ion-icon name="logo-dribbble"></ion-icon>
-                </a>
-                <a href="#"
-                    class="w-10 h-10 bg-[#333333] rounded-full flex items-center justify-center text-gray-400 hover:bg-pink-500 hover:text-white transition-all duration-300">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                </a>
-            </div>
-            <div class="bg-[#111111] p-4 rounded-xl w-full divide-y divide-gray-700">
-                <div class="flex items-center py-3 text-left">
-                    <div class="w-10 h-10 bg-[#222222] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                        <ion-icon name="phone-portrait-outline" class="text-pink-500 text-xl"></ion-icon>
+            <main class="w-full">
+                <!-- <nav class="w-2xl h-11 bg-amber-200  flex justify-end mr-2"> -->
+                <nav class="flex justify-center lg:justify-end mb-8">
+                    <div class="bg-black p-2 rounded-2xl flex items-center space-x-2">
+                        <a href="#"
+                            class="flex flex-col items-center justify-center w-20 h-20 bg-[#222222] rounded-lg space-y-1 hover:bg-pink-600 transition-colors">
+                            <ion-icon name="home" class="text-pink-500 text-2xl"></ion-icon>
+                            <p class="text-xs text-white">home</p>
+                        </a>
+                        <a href="#"
+                            class="flex flex-col items-center justify-center w-30 h-30 bg-[#222222] rounded-lg space-y-1 hover:bg-gray-700 transition-colors">
+                            <ion-icon name="reader-outline" class="text-pink-500 text-2xl"></ion-icon>
+                            <p class="text-xs text-white">Resume</p>
+                        </a>
+                        <a href="#"
+                            class="flex flex-col items-center justify-center w-20 h-20 bg-[#222222] rounded-lg space-y-1 hover:bg-gray-700 transition-colors">
+                            <ion-icon name="briefcase" class="text-pink-500 text-2xl"></ion-icon>
+                            <p class="text-xs text-white">works</p>
+                        </a>
+                        <a href="#"
+                            class="flex flex-col items-center justify-center w-20 h-20 bg-[#222222] rounded-lg space-y-1 hover:bg-gray-700 transition-colors">
+                            <ion-icon name="flower-outline" class="text-pink-500 text-2xl"></ion-icon>
+                            <p class="text-xs text-white">blogs</p>
+                        </a>
+                        <a href="#"
+                            class="flex flex-col items-center justify-center w-30 h-30 bg-[#222222] rounded-lg space-y-1 hover:bg-gray-700 transition-colors">
+                            <ion-icon name="earth" class="text-pink-500 text-2xl"></ion-icon>
+                            <p class="text-xs text-white">contact</p>
+                        </a>
                     </div>
-                    <div>
-                        <p class="text-xs text-white">phone</p>
-                        <p class="text[4px] text-white">+91-7352719256</p>
+                </nav>
+                <div class=" p-2.5 bg-black p-8 rounded-2xl text-white">
+                    <h2 class="text-3xl font-bold mb-4 text-pink-400">About Me</h2>
+                    <p class="text-gray-300">
+                        About Me
+                        I'm a passionate developer with a strong foundation in both web technologies and foundational
+                        programming. My expertise lies in crafting seamless user experiences with HTML, CSS, and
+                        JavaScript,
+                        while my skills in C and C++ have equipped me with a deep understanding of logic and
+                        performance.
+
+                        I thrive on solving complex problems and turning innovative ideas into functional, beautiful
+                        digital
+                        realities. Whether it's building a responsive front-end or architecting efficient back-end
+                        logic,
+                        I'm dedicated to writing clean, effective code.
+
+                        Let's connect and build something amazing together.
+
+
+                    </p>
+                    <div class="mt-6 h-64 bg-[#1d1d1d] rounded-xl flex items-center justify-center gap-5 p-3">
+                        <p class="text-gray-500">My Story in Code 💻
+                            From the foundational logic of C and C++ to the vibrant, interactive world of HTML, CSS, and
+                            JavaScript, my journey in programming has been about one thing: creation. I don't just write
+                            code; I build bridges between ideas and reality.
+
+                            Think of me as a digital architect. I use HTML to lay the foundation, CSS to design the
+                            beautiful facade, and JavaScript to bring it all to life with dynamic functionality. My
+                            background in C/C++ ensures that everything I build is efficient, robust, and built to last.
+
+                            I'm passionate about technology and always eager to learn, grow, and collaborate on exciting
+                            new
+                            projects.</p>
+                        <p class="text-gray-500">
+                            Developer. Problem-Solver. Creator.
+                            I craft intuitive and elegant digital experiences. My toolbox includes JavaScript, HTML, and
+                            CSS
+                            for bringing web designs to life, backed by a solid understanding of software engineering
+                            principles from my work with C and C++.
+
+                            My goal is simple: to build things that work well and look great.
+
+                            Have a project in mind? I'd love to hear about it.
+                        </p>
                     </div>
                 </div>
-                <div class="flex items-center py-3 text-left">
-                    <div class="w-10 h-10 bg-[#222222] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                        <ion-icon name="mail" class="text-pink-500 text-xl"></ion-icon>
-                    </div>
-                    <div>
-                        <p class="text-xs text-white">Email</p>
-                        <p class="text-sm text-white">Anukalpk79@gmail.com</p>
-                    </div>
-                </div>
-                <div class="flex items-center py-3 text-left">
-                    <div class="w-10 h-10 bg-[#222222] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                        <ion-icon name="location" class="text-pink-500 text-xl"></ion-icon>
-                    </div>
-                    <div>
-                        <p class="text-xs text-white">location</p>
-                        <p class="text-sm text-white">Bihar India</p>
-                    </div>
-                </div>
-                <div class="flex items-center py-3 text-left">
-                    <div class="w-10 h-10 bg-[#222222] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                        <ion-icon name="calendar" class="text-pink-500 text-xl"></ion-icon>
-                    </div>
-                    <div>
-                        <p class="text-xs text-white">Birtdate</p>
-                        <p class="text-sm text-white">27/06/2006</p>
-                    </div>
-                </div>
-                <div class="flex items-center py-3 text-left">
-                    <div class="w-4/5 h-10 bg-[#222222] rounded-lg flex items-center justify-center mr-4 ">
-                        <ion-icon name="download" class="text-pink-500 text-xl"></ion-icon>
-                        <p class="text-sm text-white">download CV</p>
-                    </div>
-            </div>
-    </aside>
-<main class="w-full flex-grow">
-<nav class="w-2xl h-11 bg-amber-200"></nav>
-</main>
-    
+            </main>
+    </div>
 </body>
+<script src="index.js"></script>
 </html>
