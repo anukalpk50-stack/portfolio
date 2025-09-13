@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "@tailwindcss/cli": "^4.1.13",
-    "cloudinary": "^2.7.0",
-    "dotenv": "^17.2.2",
-    "tailwindcss": "^4.1.13"
-  }
-}
